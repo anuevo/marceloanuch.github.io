@@ -1,41 +1,896 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="assets/favicon/icn_cv.png">
-    <meta name="viewport" content="width=   zh, initial-scale=1.0">
-    <title>Mi CV</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Curriculum Vitae</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-    <h1>
-        Soy Marcelo Anuch
-    </h1>
-    <img src="assets/imgs/perfil.jpg" width="300" alt="Yo XD">
-    <h3>
-        Te invito a conocerme
-    </h3>
-   <h4>{Resumen Ejecutivo}</h4>
-    <p>Para mí, las personas siempre deben estar en el centro, nosotros solo somos elementos canalizadores de soluciones sociales. La empatía, confianza, honestidad, actitud positiva e inteligencia emocional me ha ayudado a desarrollar relaciones interpersonales conformando equipos de trabajos motivados y comprometidos con su líder, que a su vez, está comprometido con los objetivos estratégicos de la organización y sobre todo, comprometido con las personas.</p>
-    <h4>{Datos Personales}</h4>
-    <ul>
-        <li>{Nombre} Marcelo Alejandro Anuch Medina</li>
-        <li>{Fecha Nacimiento} 19 Febrero de 1976</li>
-        <li>{Correo} marceloanuch@me.com</li>
-        <li>{Nacionalidad} Chileno</li>
-    </ul>
-    <h4>{Mi Educación}</h4>
-    <ol>
-        <li>Enseñanza Básica y Media / Colegio San Mateo / Osorno / 1982-1994</li>
-        <li>Ingeniería Informática / Universidad Los Lagos / Osorno / 1996-1998</li>
-        <li>Ingeniería Comercial / Universidad Tecnológica de Chile / 2007-2011</li>
-        <li>Magister Administración de Empresa / Universidad del Desarrollo / 2014-2015</li>
-    </ol>
-    <br>
-    Conoce mi Portafolio <a href="portafolio.html">aquí</a>
-    <br>
-    <br>
-    Te invito a conocer mi <a href="https://www.linkedin.com/in/marceloanuch" target="_blank">LinkedIn</a>, atrévete, conectemos.
-    <br>
+
+  <div class="d-flex pt-2 whats-float">
+    <a href="https://api.whatsapp.com/send?phone=56995428635&text=Hola-Marcelo!" target="_blank">
+        <i class="bi bi-whatsapp"></i><span>Contáctame<br><small>vía Whatsapp</small></span>
+    </a>
+  </div>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Marcelo Anuch</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Sobre mi</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resumen</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Servicios</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contacto</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Marcelo Anuch</h1>
+      <p>Soy <span class="typed" data-typed-items="Autodidacta, Libre, Minucioso, Emprendedor, Social, Innovador, Empático, Humano, Solidario, Positivo, Competitivo"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Sobre mi</h2>
+          <p>Para mí, las personas siempre deben estar en el centro, nosotros solo somos elementos canalizadores de soluciones sociales. La empatía, confianza, honestidad, actitud positiva e inteligencia emocional me ha ayudado a desarrollar relaciones interpersonales conformando equipos de trabajos motivados y comprometidos con su líder, que a su vez, está comprometido con los objetivos estratégicos de la organización y sobre todo, comprometido con las personas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Ingeniero Comercial / MBA en Emprendimiento e Innovación &amp; Desarrollador Web.</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Cumpleaños:</strong> <span>19 Febrero 19xx</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Sitio:</strong> <span>marceloanuch.github.io</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Celular:</strong> <span>+56 9 xxxx xxxx</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>Osorno, X Región, Chile</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span>XD</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Grado Academico:</strong> <span>Magister</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>eMail:</strong> <span>marceloanuch@me.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Uso de Software</h2>
+          <p>Encontrar profesionales que tengan una afinidad o pasión por la tecnología es un valor agregado para las empresas que cada día buscan colaboradores con competencias en esta área. Comparto mi nivel de habilidades en los siguientes software y servidores en una escala del 1 al 10: </p>
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Microsoft Office</strong> dominio intermedio avanzado</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Windows</strong> a nivel cliente/servidor</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Linux</strong> nivel servidor en sus versiones CentOS/Debian/Ubuntu</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>SQL Server/MySQL</strong> nivel intermedio</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>SAP</strong> uso básico</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Manager ERP</strong> uso básico</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>MS Project/Visio</strong> dominio intermedio avanzado</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Citrix XenServer</strong> nivel administrador y asignador de recursos</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>VMWare</strong> en sus versiones vSphere, vCenter, vReplicator</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Habilidades Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Habilidades</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">Comunicativas <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Capacidad para Resolver <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Liderazgo <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Creatividad <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">Relaciones Interpersonales <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Trabajo en Equipo <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Actitud Positiva <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Honestidad e Integridad <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Habilidades Section -->
+
+
+        <!-- ======= Compromiso Section ======= -->
+        <section id="skills" class="skills section-bg">
+          <div class="container">
     
+            <div class="section-title">
+              <h2>Compromiso</h2>
+              <p>Todos quienes necesiten de mis servicios profesionales obtendrán:</p>
+            </div>
+    
+            <div class="row skills-content">
+    
+              <div class="col-lg-6" data-aos="fade-up">
+    
+                <div class="progress">
+                  <span class="skill">Honestidad e Integridad <i class="val">100%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+    
+                <div class="progress">
+                  <span class="skill">Confianza <i class="val">100%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+    
+                <div class="progress">
+                  <span class="skill">Deseos de aprender <i class="val">100%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+    
+                <div class="progress">
+                  <span class="skill">Dedicación <i class="val">100%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+    
+                <div class="progress">
+                  <span class="skill">Proactividad <i class="val">100%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+    
+                <div class="progress">
+                  <span class="skill">Sentido de pertenencia <i class="val">100%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>    
+              </div>
+    
+            </div>
+    
+          </div>
+        </section><!-- End Compromisos Section -->
+    
+
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resumen</h2>
+          <p>Conoce un poco de mi educación y lo que he realizado en el transcurso de mi vida, siempre buscando algo nuevo en que emprender.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Autodidacta</h3>
+            <div class="resume-item pb-0">
+              <h4>Marcelo Anuch</h4>
+              <p><em>Algunos temas en los cuales me he autocapacitado:</em></p>
+              <ul>
+                <li>Liderazgo y Gestión de Equipos / uDemy</li>
+                <li>VMWare vSphere, vCenter y vReplicator / uDemy</li>
+                <li>Scrum / uDemy (en proceso)</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Educación</h3>
+            <div class="resume-item">
+              <h4>Desarrollador Fulstack</h4>
+              <h5>2023 - a la fecha</h5>
+              <p><em>Santiago, Chile.</em></p>
+              <p>NodeJS, ExpressJS, REACT, PostgreSQL, HTML5, CSS3, Bootstrap</p>
+            </div>
+            <div class="resume-item">
+              <h4>Magister Administración Empresas</h4>
+              <h5>2014 - 2015</h5>
+              <p><em>Santiago, Chile.</em></p>
+              <p>Enfoque en Emprendimiento e Innovación / Universidad del Desarrollo</p>
+            </div>
+            <div class="resume-item">
+              <h4>Certificación Ubiquiti Networks</h4>
+              <h5>2012</h5>
+              <p><em>UBIQUITI, Santiago.</em></p>
+              <p>Especialización en diseño y configuración de Radio Enlaces tipo WAN y MAN</p>
+            </div>
+            <div class="resume-item">
+              <h4>Ingeniería Comercial</h4>
+              <h5>2007 - 2011</h5>
+              <p><em>Universidad Tecnológica de Chile</em></p>
+              <p>Especialización en Marketing</p>
+            </div>
+            <div class="resume-item">
+              <h4>Ingeniería Informática</h4>
+              <h5>1996 - 1998</h5>
+              <p><em>Universidad de Los Lagos</em></p>
+              <p>Abandonada por no llenar mis espectativas</p>
+            </div>
+            <div class="resume-item">
+              <h4>Enseñanza Básica y Media</h4>
+              <h5>1982 - 1994</h5>
+              <p><em>Colegio San Mateo, Osorno</em></p>
+              <p>Desde Kinder a Cuarto Medio</p>
+            </div>
+
+            <h3 class="resume-title">Premios</h3>
+            <div class="resume-item">
+              <h4>Espíritu Emprendedor</h4>
+              <h5>MBA UDD</h5>
+              <p><em>2015.</em></p>
+              <p></p>
+            </div>
+            <div class="resume-item">
+              <h4>Ideas de Negocio</h4>
+              <h5>INACAP 2008</h5>
+              <p><em>TALCA, Chile.</em></p>
+              <p>Primer lugar en competencia Nacional de Ideas de Negocio organizado por INACAP</p>
+            </div>
+            <div class="resume-item">
+              <h4>Ideas de Negocio</h4>
+              <h5>INACAP 2008</h5>
+              <p><em>Osorno, Chile.</em></p>
+              <p>Primer lugar en competencia Local de Ideas de Negocio organizado por INACAP</p>
+            </div>
+
+            <h3 class="resume-title">Areas de Interés Laboral</h3>
+            <div class="resume-item">
+              <h4></h4>
+              
+              <p><em></em></p>
+              <p>Desarrollo de negocios, emprendimiento, administración, marketing/mercadeo, gestión financiera, inteligencia de negocios, planificación y desarrollo, gestión y control de proyectos, servicio al cliente, tecnologías de la información.</p>
+            </div>
+
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Experiencia Profesional</h3>
+            <div class="resume-item">
+              <h4>Jefe Departamento Provincial</h4>
+              <h5>2019 – 2021</h5>
+              <p><em>SERVIU, Osorno </em></p>
+              <p>Encargado de mantener las relaciones públicas desde un rol social generando un acercamiento y vínculos con la comunidad, JJVV, comunidades indígenas, comités y dirigentes, en materia habitacional, programas participativos de barrios, PDAO. Asimismo mantener las relaciones de responsabilidad económica con Entidades Patrocinantes y Constructoras Urbanas y Rurales en el cumplimiento del desarrollo de proyectos habitacionales en la provincia de Osorno. Como Líder dirigiría y coordinaba el equipo provincial en áreas de gestión administrativa, ejecución presupuestaria, indicadores de desempeño, finanzas, inspecciones técnicas y social.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Asesor externo en Tecnologías de Información</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Instituto Alemán, Osorno</em></p>
+              <p>Como líder del equipo de tecnologías, soy responsable de guiar la implementación de cambios que contribuyan al logro de los objetivos estratégicos institucionales y del Bachillerato Internacional (IB). No se requiere un horario estricto ni dedicación exclusiva a la empresa, pero estoy comprometido a asegurar un alto desempeño en mi trabajo.</p>            
+            </div>
+            <div class="resume-item">
+              <h4>Consultor de Empresas</h4>
+              <h5>2015 – 2019</h5>
+              <p><em>Consultora Agrocosta, Osorno</em></p>
+              <p>Apoyo en nuevos emprendimientos de pequeños agricultores para expandir su matriz productiva. Creamos una visión distinta de sus negocios aplicando herramientas de modelamiento como CANVAS, análisis FODA, PESTAL/PESTEL y Porter. De esta forma conocen sus fortalezas y debilidades ante su competencia permitiéndoles competir con la mejor propuesta de valor para los clientes. Labor realizada fuera de horarios de trabajo y/o remotamente por video conferencia.</p>            
+            </div>
+            <div class="resume-item">
+              <h4>Gerente subrogante</h4>
+              <h5>2015 – 2019</h5>
+              <p><em>Transportes 3A, Osorno</em></p>
+              <p>Liderar el equipo y supervisar la planificación de rutas de camiones prediales, trabajar estrechamente con el prevencionista de riesgo, cumplir leyes laborales, preparar impuestos mensuales y evaluar su impacto en la renta anual. Controlar insumos y repuestos equilibrando costos y presupuestos de la empresa.</p>            
+            </div>
+            <div class="resume-item">
+              <h4>Gerente Comercial y Marketing/h4>
+              <h5>2014 – 2019</h5>
+              <p><em>NBG Consultores, Osorno</em></p>
+              <p>Evaluar aspectos económicos, financieros y técnicos antes de adquirir maquinarias multifuncionales para el outsourcing en empresas y colegios, garantizar rentabilidad y cumplir con requisitos fiscales de la empresa.</p>            
+            </div>
+            <div class="resume-item">
+              <h4>Docente</h4>
+              <h5>2013 – 2016</h5>
+              <p><em>INACAP, Santo Tomas e Instituto Profesional La Araucana, ULAGOS, Osorno</em></p>
+              <p>Docente en las carreras de administración de negocios impartiendo clases de Marketing, Costos, Evaluación de Proyectos, Emprendimiento e Informática orientada a empresas (ERP).</p>         
+            </div>
+            <div class="resume-item">
+              <h4>Socio Fundador</h4>
+              <h5>2012 – a la fecha</h5>
+              <p><em>MediaLink Chile, Osorno</em></p>
+              <p>Liderar el proceso de cambio y transformación desde COMTELE, garantizando el éxito comercial de la empresa mediante la definición de estrategias en las áreas de servicios, contrataciones, administración, finanzas, cumplimiento fiscal, promoción de la marca y atención al cliente. Por otra parte, encargado de los proyectos de telecomunicación para la transmisión de datos y voz mediante radioenlace. Actualmente solo se realiza participación en junta de directorio fuera de todo horario laboral.</p>            
+            </div>
+            <div class="resume-item">
+              <h4>Ingeniero de Proyectos</h4>
+              <h5>2012 - 2013</h5>
+              <p><em>Instituto Alemán, Osorno</em></p>
+              <p>Liderar el equipo de trabajo y supervisar el desarrollo de proyectos tecnológicos, garantizando una aplicación eficiente y responsable en términos económicos y financieros. <br>Liderar el proceso de transformación y cambio desde COMTELE a MediaLink Chile con nuevos socios y capitales.</p>            
+            </div>
+            <div class="resume-item">
+              <h4>Asesor de Negocios</h4>
+              <h5>2010 a la fecha</h5>
+              <p><em>Cámara Comercio y Turismo, Osorno</em></p>
+              <p>Brindar asesoramiento a socios en áreas de administración, finanzas, laborales, contables, fiscales y estructuración empresarial, a través de diagnósticos de sus negocios utilizando herramientas de modelado como CANVAS, y análisis FODA y PESTAL/PESTEL. Labor que se ejecuta fuera de horarios laborales.</p>            
+            </div>
+            <div class="resume-item">
+              <h4>Gerente Comecial</h4>
+              <h5>2008 – 2014</h5>
+              <p><em>Empresas Indigo, Osorno</em></p>
+              <p>Planificar y desarrollar estrategias de marketing para impulsar el crecimiento comercial de la empresa, y garantizar la satisfacción de los clientes a través de un servicio excepcional y personalizado.</p>            
+            </div>
+            <div class="resume-item">
+              <h4>Jefe Área Tecnologías de la Información y Comunicación</h4>
+              <h5>2006 – 2008</h5>
+              <p><em>Instituto Alemán, Osorno</em></p>
+              <p>Dirigir el equipo de trabajo para desarrollar plataformas tecnológicas que mejoren la gestión docente y administrativa de la institución.</p>            
+            </div>
+            <div class="resume-item">
+              <h4>Jefe Área Tecnologías de la Información y Comunicación</h4>
+              <h5>2001 – 2005</h5>
+              <p><em>Colegio San Mateo, Osorno</em></p>
+              <p>Me desempeñé como fundador del departamento de informática, reclutando talentosos profesionales para formar un equipo altamente capacitado. Comenzamos con la implementación de una red interna, un centro de datos y el desarrollo de soluciones informáticas que apoyaran tanto a la gestión administrativa como a la docente. Con el tiempo, enfocamos nuestros esfuerzos en el desarrollo de software de alta calidad y eficiencia.</p>            
+            </div>
+            <div class="resume-item">
+              <h4>Analista y Desarrollador Senior</h4>
+              <h5>1997 – 2001</h5>
+              <p><em>Clínica Alemana, Osorno</em></p>
+              <p>Integrante de un equipo de expertos en informática encargado del desarrollo de un sistema de gestión administrativa que cubría tanto el front-end como el back-end. Para lograr esto, tuve que comprender los procesos, tareas administrativas y contables de cada área de la clínica para integrar un sistema eficiente que ayudaría a la dirección a tomar decisiones informadas.</p>            
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-briefcase"></i></div>
+            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-binoculars"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-brightness-high"></i></div>
+            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
