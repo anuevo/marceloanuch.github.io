@@ -362,7 +362,7 @@ h6 {
 .correo-float {
   position: fixed;
   transform:translate(108px,0px);
-  top:52.2%;
+  top:54%;
   right:-35px;
   width:200px;
   height:60px;
@@ -1205,7 +1205,6 @@ section {
     padding-right: 20px 15px;
   }
 }
-
 
 .template-card {
   transition: .3s ease-in-out;
