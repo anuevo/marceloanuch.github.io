@@ -362,13 +362,13 @@ h6 {
 .correo-float {
   position: fixed;
   transform:translate(108px,0px);
-  top:54%;
+  top:31.5em;
   right:-35px;
   width:200px;
   height:60px;
   justify-content: space-between;
   overflow: hidden;
-  background-color: #5175B9;
+  background-color: #5175b9;
   color: #FFF;
   border-radius: 4px 0 0 20px;
   z-index: 10;
